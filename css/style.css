@@ -3272,6 +3272,10 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		float: right;
 	}
 
+	.client-box {
+		box-shadow: 5px 3px 5px gray;
+	}
+
 	/** image carousel **/
 
 	.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
