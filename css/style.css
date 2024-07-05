@@ -904,6 +904,9 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 	.dark-bg{
 		background-color: #191919 !important;
 	}
+	.green-bg{
+		background-color: #96C342;
+	}
 	
 	.colored-bg{
 		background-color: #ffd700;
@@ -3252,6 +3255,9 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 	.width-20 {
 		width: 20%;
 	}
+	.width-100 {
+		width: 100%;
+	}
 
 	/* Large rounded green border */
 	hr {
@@ -3276,4 +3282,5 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
     .MultiCarousel .leftLst { left:0; }
     .MultiCarousel .rightLst { right:0; }
     
-        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+		.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+		
