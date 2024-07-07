@@ -3246,6 +3246,9 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 	.width-60 {
 		width: 60%;
 	}
+	.width-65 {
+		width: 60%;
+	}
 	.width-75 {
 		width: 75%;
 	}
@@ -3274,6 +3277,13 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 
 	.client-box {
 		box-shadow: 5px 3px 5px gray;
+	}
+
+	.p-20 {
+		padding: 20px;
+	}
+	.p-40 {
+		padding: 40px;
 	}
 
 
