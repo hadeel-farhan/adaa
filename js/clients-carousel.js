@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
-
-
-<!-- Start Head -->
-
-<head>
+const ClientsCarousel = () => {
+    return (`  <div>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -23,18 +18,6 @@
     <!--End Title -->
 
     <link rel="stylesheet" href="css/carousel.css" />
-    <link rel="stylesheet" href="css/style.css" />
-
-
-
-</head>
-<!--End Head -->
-
-
-<!--Body Starts -->
-
-<body>
-
 
     <div class="container">
         <div class="row">
@@ -124,63 +107,8 @@
         </div>
     </div>
 
-    <!-- PORTFOLIO -->
-    <div class="container">
-        <div class="row" data-uk-grid="{controls: '#work'}">
-            <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000">
-                <div class="MultiCarousel-inner">
-                    <div class="item">
-                        <div class="pad15 work uk-width-small-1-2 uk-width-medium-1-3" data-uk-filter="filter-web">
-                            <img class="client-box" src="img/works/01.jpg" width="100%" alt="" />
-                            <!-- Hover Lightbox -->
-                            <a href="img/works/01.jpg" data-lightbox="works" title="The Rockery Villa">
+    <script src="js/carousel.js"></script>
+</div>`);
+}
 
-                                <!-- Hover -->
-                                <div class="hover">
-
-                                    <!-- Title -->
-                                    <p class="dark f-medium normal">The Rockery Villa</p>
-
-                                </div>
-                                <!-- End Hover -->
-
-                            </a>
-                            <!-- End Hover Lightbox -->
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="pad15">
-                            <img class="client-box" src="img/works/02.jpg" width="100%" alt="" />
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="pad15">
-                            <img class="client-box" src="img/works/03.jpg" width="100%" alt="" />
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="pad15">
-                            <img class="client-box" src="img/works/04.jpg" width="100%" alt="" />
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="pad15">
-                            <img class="client-box" src="img/works/05.jpg" width="100%" alt="" />
-                        </div>
-
-
-
-
-                    </div>
-                    <button class="btn btn-primary green-bg leftLst">
-                        <</button>
-                            <button class="btn btn-primary green-bg rightLst">></button>
-                </div>
-            </div>
-        </div>
-
-        <script src="js/carousel.js"></script>
-
-</body>
-
-</html>
+export default ClientsCarousel;
