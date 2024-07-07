@@ -6,7 +6,7 @@
 }
 
 .project-item:hover .overlay {
-    opacity: 0.6;
+    opacity: 1;
 }
 .project-item {
     position: relative;
@@ -18,8 +18,8 @@
     height: auto; 
 }
 .text {
+    color:white;
     position: absolute;
-    opacity: 1;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -38,14 +38,13 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color:gray;
-
+    background-color: rgba(105,105,105,0.6);
 }
 
 .MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
     .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
         .MultiCarousel .MultiCarousel-inner .item { float: left; }
-        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; margin:10px;}
     .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
     .MultiCarousel .leftLst { left:0; }
     .MultiCarousel .rightLst { right:0; }
