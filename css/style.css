@@ -3279,11 +3279,19 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		box-shadow: 5px 3px 5px gray;
 	}
 
+	.p-10 {
+		padding: 10px;
+	}
+
 	.p-20 {
 		padding: 20px;
 	}
 	.p-40 {
 		padding: 40px;
+	}
+
+	.m-5 {
+		margin: 5px;
 	}
 
 
