@@ -1,125 +1,17 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
 
-.contact-container {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
 
-.contact-header {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #fff;
-    border-radius: 8px;
-    overflow: hidden;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+/**HEREE**/
 
-.contact-image {
-    width: 50%;
-    max-width: 400px;
-}
-
-.contact-text {
-    flex: 1;
-    padding: 20px;
-}
-
-.contact-text h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-.contact-text p {
-    font-size: 18px;
-    color: #666;
-}
-
-.contact-text .highlight {
-    color: #8dc63f;
-    font-weight: bold;
-}
-
-.contact-form {
-    flex: 1;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-left: 1px solid #ddd;
-}
-
-.contact-form h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
-.contact-form button {
-    background-color: #8dc63f;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.contact-form button:hover {
-    background-color: #7bb639;
-}
-
-.contact-info {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.contact-info h2 {
-    font-size: 22px;
-    margin-bottom: 10px;
-}
-
-.contact-info p {
-    margin-bottom: 10px;
-}
-
-.portfolio-link {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 15px;
-    background-color: #8dc63f;
-    color: #fff;
-    border-radius: 4px;
-    text-decoration: none;
-}
-
-.portfolio-link:hover {
-    background-color: #7bb639;
-}
-
-.social-links {
-    margin-top: 20px;
-}
-
-.social-links a {
-    margin-right: 10px;
-}
-
-.social-links img {
-    width: 24px;
-    height: 24px;
-}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+  }
+  
+  /* Centered text */
+  .centered {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
