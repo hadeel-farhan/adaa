@@ -3294,6 +3294,21 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		margin: 5px;
 	}
 
+	.footer-colors {
+		background-color: #898888;
+		color: white;
+	}
+
+	.footer-position {
+		position: absolute;
+		width: 100%;
+
+	}
+
+	.footer-colors a:link, a:visited {
+		color: white;
+	}
+
 
 	/** image carousel **/
 
