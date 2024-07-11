@@ -3294,6 +3294,12 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		margin: 5px;
 	}
 
+	.mg-30 {
+		margin-right: 30px;
+		margin-top: 30px;
+
+	}
+
 	.footer-colors {
 		background-color: #898888;
 		color: white;
