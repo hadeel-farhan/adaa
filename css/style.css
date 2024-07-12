@@ -906,6 +906,11 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 	}
 	.green-bg{
 		background-color: #96C342;
+		border: none;
+
+	}
+	.green-bg:hover {
+		background-color: #306494;
 	}
 	
 	.colored-bg{
@@ -3309,6 +3314,12 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 
 	}
 
+	.mgl-20 {
+		margin-left: 20px;
+		margin-top: 30px;
+
+	}
+
 	.mt-5 {
 		margin-top: 5px;
 		margin-right: 5px;
@@ -3332,6 +3343,12 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 	.flex-parent {
 		display: flex;
 		flex-direction: row;
+	}
+
+	@media only screen and (max-width: 730px) {
+		#testimonials {
+			display: none;
+		}
 	}
 
 

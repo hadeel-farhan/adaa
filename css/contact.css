@@ -3,21 +3,32 @@
 /* Container holding the image and the text */
 .container {
     position: relative;
-  }
+}
   
   /* Centered text */
-  .centered {
+.centered {
     position: absolute;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
     /* Centered-Left text */
-    .centered-left {
-        text-align: left;
-        position: absolute;
-        top: 40%;
-        left: 45%;
-        transform: translate(-50%, -50%);
-      }
+.centered-left {
+    text-align: left;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.link-visited:visited {
+    color: #444;
+}
+
+.link-visited:active{
+    color: #444;
+
+}
+
+    

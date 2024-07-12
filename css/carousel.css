@@ -2,7 +2,7 @@
     background-color: #96C342;
 }
 .client-box {
-    box-shadow: 2px 1px 2px gray;
+    box-shadow: 0.5px 1px 1px #d3d3d3;
 }
 
 .project-item:hover .overlay {
@@ -38,7 +38,7 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(105,105,105,0.6);
+    background-color: rgba(105,105,105,0.7);
 }
 
 .MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
