@@ -404,7 +404,7 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 
 	
 	.section-content{
-		padding: 0px 10% 0px 10%;
+		padding: 150px 10% 150px 10%;
 		z-index: 9999;
 	}
 	
@@ -1702,6 +1702,7 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 	
 	.work{
 		overflow: hidden;
+		padding: 20px;
 
 	}
 	
@@ -3298,6 +3299,10 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		padding: 40px;
 	}
 
+	.p-60 {
+		padding: 60px;
+	}
+
 	.m-5 {
 		margin: 5px;
 	}
@@ -3350,6 +3355,7 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 			display: none;
 		}
 	}
+
 
 
 	/** image carousel **/
