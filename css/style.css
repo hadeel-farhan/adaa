@@ -3328,6 +3328,11 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		color: white;
 	}
 
+	.flex-parent {
+		display: flex;
+		flex-direction: row;
+	}
+
 
 	/** image carousel **/
 
