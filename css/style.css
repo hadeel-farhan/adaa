@@ -3301,6 +3301,9 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 	.p-40 {
 		padding: 40px;
 	}
+	.pt-10 {
+		padding-top: 10px;
+	}
 
 	.pt-50 {
 		padding-top: 50px;
@@ -3312,6 +3315,14 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 
 	.m-5 {
 		margin: 5px;
+	}
+
+	.mt-150 {
+		margin-top: 150px;
+	}
+
+	.mb-300 {
+		margin-bottom: 300px;
 	}
 
 	.mg-30 {
@@ -3348,7 +3359,7 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 
 	}
 
-	.footer-colors a:link, a:visited {
+	.footer-colors a:link, .footer-colors a:visited {
 		color: white;
 	}
 
