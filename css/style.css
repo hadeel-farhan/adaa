@@ -3357,6 +3357,10 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		color: #203c64;
 	}
 
+	.display-bullet {
+		display:list-item;
+	}
+
 	@media only screen and (max-width: 730px) {
 		#testimonials {
 			display: none;
