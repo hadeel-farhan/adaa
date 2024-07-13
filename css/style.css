@@ -3302,6 +3302,10 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		padding: 40px;
 	}
 
+	.pt-50 {
+		padding-top: 50px;
+	}
+
 	.p-60 {
 		padding: 60px;
 	}
@@ -3360,6 +3364,7 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 	.display-bullet {
 		display:list-item;
 	}
+
 
 	@media only screen and (max-width: 730px) {
 		#testimonials {
