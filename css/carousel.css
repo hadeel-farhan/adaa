@@ -38,7 +38,7 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: rgba(105,105,105,0.7);
+    background-color: rgba(105,105,105,0.8);
 }
 
 .MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
