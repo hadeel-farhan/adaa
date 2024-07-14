@@ -34,8 +34,8 @@ Images and files that are no longer used
 - Development June - July 2024
 
 # Total time spent:
-Design: 8-10 hours
-Set up: 4 hours
-Development: 35-40 hours
+- Design: 8-10 hours
+- Set up: 4 hours
+- Development: 35-40 hours
 
-Estimated Total time: 47-54 hours
+- Estimated Total time: 47-54 hours
