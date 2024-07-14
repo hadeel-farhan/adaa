@@ -1,22 +1,33 @@
+
+/* Green Background for buttons */
 .green-bg{
     background-color: #96C342;
 }
+
+/* Box shadow for item*/
 .client-box {
     box-shadow: 0.5px 1px 1px #d3d3d3;
 }
 
+
+/* Opacity of overlay, opacity of color in .overlay below */
 .project-item:hover .overlay {
     opacity: 1;
 }
+
+/* Item positioning */
 .project-item {
     position: relative;
 }
 
+/* Carousel Image */
 .image {
     display: block;
     width: 100%;
     height: auto; 
 }
+
+/* Text in the Hover Overlay on Item */
 .text {
     color:white;
     position: absolute;
@@ -27,7 +38,9 @@
     transform: translate(-50%, -50%);
     text-align: center;
   } 
-  
+
+
+/* Text Overlay on Each Item */
 .overlay {
     position: absolute;
     top: 0;
@@ -41,6 +54,7 @@
     background-color: rgba(105,105,105,0.8);
 }
 
+/* Carousel Styling */
 .MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
     .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
         .MultiCarousel .MultiCarousel-inner .item { float: left; }

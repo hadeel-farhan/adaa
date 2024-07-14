@@ -1,6 +1,7 @@
 var slideIndex = 0;
 carousel();
 
+//Change the images automatically as a slideshow
 function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");

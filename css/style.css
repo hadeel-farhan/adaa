@@ -99,6 +99,10 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 			Resolution Under 375px
 
 		17. Other Hadeel Added
+			Navigation Additional Styling
+			Custom Widths
+			Custom Padding
+			Footer Custom
 
 
 	
@@ -3151,17 +3155,6 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	#preview{
 		padding-top: 200px;
 	}
@@ -3231,24 +3224,21 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		border-radius: 100%;
 	}
 	
-/**** HADEEL ADDED HERE ***/
-	/* .fade {
-		animation-name: fade;
-		animation-duration: 1.5s;
-  	}
-  
-  	@keyframes fade {
-		from {opacity: .4} 
-		to {opacity: 1}
-	  } */
-	  
+	
+/**** HADEEL ADDED HERE ***/	 
+
+	/* Logo size in nav bar */
 	.navbar-brand #nav-logo {
 		width: 50px;
 	}
+
+	/* Navigation bar main padding */
 	.navigation {
 		padding: 20px 3% 20px 3%;
 	}
 
+
+	/* Custom Widths */
 	.width-60 {
 		width: 60%;
 	}
@@ -3274,23 +3264,29 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		width: 100%;
 	}
 
-	/* Large rounded green border */
+	/* Horizontal separator */
 	hr {
 		border: 1px solid #017BBA;
 		border-radius: 5px;
   	}
 
+
+	/* Float Left align  */
 	.alignleft {
 		float: left;
 	}
+
+	/* Float Right align  */
 	.alignright {
 		float: right;
 	}
 
+	/* Client box shadow */
 	.client-box {
 		box-shadow: 5px 3px 5px gray;
 	}
 
+	/* Custom Padding */
 	.p-10 {
 		padding: 10px;
 	}
@@ -3313,6 +3309,7 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		padding: 60px;
 	}
 
+	/* Custom Margins */
 	.m-5 {
 		margin: 5px;
 	}
@@ -3348,6 +3345,7 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		margin-right: 5px;
 	}
 
+	/* Footer Styling */
 	.footer-colors {
 		background-color: #898888;
 		color: white;
@@ -3376,24 +3374,11 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		display:list-item;
 	}
 
-
+	/* Hide Testimonials Slideshow For small screens */
 	@media only screen and (max-width: 730px) {
 		#testimonials {
 			display: none;
 		}
 	}
 
-
-
-	/** image carousel **/
-
-	/* .MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
-    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
-        .MultiCarousel .MultiCarousel-inner .item { float: left;}
-        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
-    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
-    .MultiCarousel .leftLst { left:0; }
-    .MultiCarousel .rightLst { right:0; }
-    
-		.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; } */
 		

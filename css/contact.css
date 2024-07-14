@@ -5,7 +5,7 @@
     position: relative;
 }
   
-  /* Centered text */
+/* Centered text */
 .centered {
     position: absolute;
     top: 55%;
@@ -13,7 +13,7 @@
     transform: translate(-50%, -50%);
 }
 
-    /* Centered-Left text */
+/* Centered-Left text */
 .centered-left {
     text-align: left;
     position: absolute;
@@ -22,6 +22,7 @@
     transform: translate(-50%, -50%);
 }
 
+/* Links Visited Colors */
 .link-visited:visited {
     color: #444;
 }
