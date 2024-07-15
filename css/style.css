@@ -411,6 +411,18 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		padding: 150px 10% 150px 10%;
 		z-index: 9999;
 	}
+
+	.section-content-top{
+		padding: 150px 10% 50px 10%;
+		z-index: 9999;
+	}
+
+	.section-content-middle{
+		padding: 50px 10% 150px 10%;
+		z-index: 9999;
+	}
+	
+	
 	
 	
 	.section-content-full{
@@ -671,6 +683,16 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 	
 	.f-large{
 		font-size: 3.5em;
+		
+	}
+
+	.f-med{
+		font-size: 2.5em;
+		
+	}
+
+	.f-sm{
+		font-size: 1.5em;
 		
 	}
 	
@@ -1310,7 +1332,12 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		font-size: 4em;
 		line-height: 0;
 	}
-	
+
+	.med-text i{
+		font-size: 2em;
+		line-height: 0;
+	}
+
 	.header-img{
 		margin-bottom: 20px;		
 	}
