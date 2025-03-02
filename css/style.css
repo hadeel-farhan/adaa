@@ -3428,4 +3428,15 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		}
 	}
 
+	/* Hide image in contact page on small screens */
+	@media (max-width: 730px) {
+		.top-image {
+			display: none;
+		}
+		.top-image-section {
+			background-color: #E5E5E5;
+			padding-top: 100px; 
+			padding-bottom: 230px;
+		}
+	}
 		
