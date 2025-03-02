@@ -3336,6 +3336,10 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		padding: 60px;
 	}
 
+	.pl-25 {
+		padding-left: 25px;
+	}
+
 	/* Custom Margins */
 	.m-5 {
 		margin: 5px;
