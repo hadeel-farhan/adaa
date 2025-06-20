@@ -354,8 +354,20 @@
 
                 </div>
                 <!-- End Social Media Icons -->
-                <p>&copy; adaa Sustainable Development Consultants 2024. All Rights Reserved.</p>
+                <p>&copy; adaa Sustainable Development Consultants <span id="currentYear"></span>. All Rights Reserved.</p>
 
+                <script>
+                    // Get the current year
+                    const currentYear = new Date().getFullYear();
+
+                    // Find the span element by its ID
+                    const yearSpan = document.getElementById('currentYear');
+
+                    // Update the text content of the span with the current year
+                    if (yearSpan) {
+                        yearSpan.textContent = currentYear;
+                    }
+                </script>
             </footer>
             <!-- End Small Footer -->
 

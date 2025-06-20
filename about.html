@@ -443,7 +443,7 @@
                         <!-- End Column -->
 
                         <!-- Team Row -->
-                        <div class="row t-left" data-uk-scrollspy="{cls:'uk-animation-fade'}">
+                        <div class="row" data-uk-scrollspy="{cls:'uk-animation-fade'}">
 
                             <!-- Team Member -->
                             <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2 col-xl-2">
@@ -537,7 +537,7 @@
                                     <p class="t-left">
                                         <b>Architects:</b>
                                     </p>
-                                    <p class="t-left display-bullet">
+                                    <p class="t-left display-bullet ml-20">
                                         High-Performance Buildings Experts
                                     </p>
                                 </div>
@@ -546,10 +546,10 @@
                                     <p class="t-left">
                                         <b>Engineers:</b>
                                     </p>
-                                    <p class="t-left display-bullet">
+                                    <p class="t-left display-bullet ml-20">
                                         MEP Engineers
                                     </p>
-                                    <p class="t-left display-bullet">
+                                    <p class="t-left display-bullet ml-20">
                                         HSE Engineers
                                     </p>
                                 </div>
@@ -558,7 +558,7 @@
                                     <p class="t-left">
                                         <b>Planners:</b>
                                     </p>
-                                    <p class="t-left display-bullet">
+                                    <p class="t-left display-bullet ml-20">
                                         Urban Planning and Policy Experts
                                     </p>
                                 </div>
@@ -567,12 +567,12 @@
                                     <p class="t-left">
                                         <b>Engineering Simulation:</b>
                                     </p>
-                                    <p class="t-left display-bullet">
+                                    <p class="t-left display-bullet ml-20">
                                         Energy Modeling Specialists </p>
-                                    <p class="t-left display-bullet">
+                                    <p class="t-left display-bullet ml-20">
                                         Daylight Simulation Specialists
                                     </p>
-                                    <p class="t-left display-bullet">
+                                    <p class="t-left display-bullet ml-20">
                                         CFD Specialists
                                     </p>
                                 </div>
@@ -584,9 +584,9 @@
                                     <p class="t-left">
                                         <b>LEED Qualifications</b>
                                     </p>
-                                    <p class="t-left display-bullet">
+                                    <p class="t-left display-bullet ml-20">
                                         LEED Accredited Professionals </p>
-                                    <p class="t-left display-bullet">
+                                    <p class="t-left display-bullet ml-20">
                                         USGBC Faculty </p>
                                 </div>
                                 <br>
@@ -594,11 +594,11 @@
                                     <p class="t-left">
                                         <b>EDGE Qualifications</b>
                                     </p>
-                                    <p class="t-left display-bullet">
+                                    <p class="t-left display-bullet ml-20">
                                         EDGE Experts </p>
-                                    <p class="t-left display-bullet">
+                                    <p class="t-left display-bullet ml-20">
                                         EDGE Auditors </p>
-                                    <p class="t-left display-bullet">
+                                    <p class="t-left display-bullet ml-20">
                                         EDGE Faculty </p>
                                 </div>
                                 <br>
@@ -606,9 +606,9 @@
                                     <p class="t-left">
                                         <b>Active/Mode Score Qualifications</b>
                                     </p>
-                                    <p class="t-left display-bullet">
+                                    <p class="t-left display-bullet ml-20">
                                         ActiveScore Accredited Professional</p>
-                                    <p class="t-left display-bullet">
+                                    <p class="t-left display-bullet ml-20">
                                         ModeScore Accredited Professional</p>
                                 </div>
                             </div>
@@ -715,7 +715,20 @@
 
                 </div>
                 <!-- End Social Media Icons -->
-                <p>&copy; adaa Sustainable Development Consultants 2024. All Rights Reserved.</p>
+                <p>&copy; adaa Sustainable Development Consultants <span id="currentYear"></span>. All Rights Reserved.</p>
+
+                <script>
+                    // Get the current year
+                    const currentYear = new Date().getFullYear();
+
+                    // Find the span element by its ID
+                    const yearSpan = document.getElementById('currentYear');
+
+                    // Update the text content of the span with the current year
+                    if (yearSpan) {
+                        yearSpan.textContent = currentYear;
+                    }
+                </script>
 
             </footer>
             <!-- End Small Footer -->
