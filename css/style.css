@@ -3264,6 +3264,13 @@ Exclusively available here: https://themeforest.net/user/fourtabsthemes
 		padding: 20px 3% 20px 3%;
 	}
 
+	/* Style the collapsible content. Note: hidden by default */
+	.content {
+		padding: 0 18px;
+		display: none;
+		overflow: hidden;
+		background-color: #f1f1f1;
+	}
 
 	/* Custom Widths */
 	.width-60 {
