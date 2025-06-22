@@ -343,25 +343,31 @@
                                             <li>
                                                 <b>ActiveScore Certification Administration</b>
                                             </li>
-    
-                                            <li><b>Green Building Rating System Training </b></li>
-                                            <!-- Not bold bullet points-->
-                                            <div class="pl-25 pt-10">
-                                                <li>
-                                                    LEED Accredited Professional Training
-                                                </li>
-                                                <li>
-                                                    LEED Green Associate Training </li>
-                                                <li>
-                                                    EDGE Expert Training </li>
-                                                <li>
-                                                    EDGE Showcase training </li>
+                                            <li class="collapsible-header" onclick="toggleCollapse(this)">
+                                                <b>Green Building Rating System Training</b>
+                                                <span class="arrow"><img src="img/services/arrow-icon.png" width="5%"></span>
+                                            </li>
+                                            <div class="collapsible-content pl-25 pt-10">
+                                                <li>LEED Accredited Professional Training</li>
+                                                <li>LEED Green Associate Training</li>
+                                                <li>EDGE Expert Training</li>
+                                                <li>EDGE Showcase training</li>
                                             </div>
-                                            <!-- <li>
-                                                <b>Green Building Rating System Training </b>
-                                            </li> -->
 
+                                            <script>
+                                            function toggleCollapse(header) {
+                                                const arrow = header.querySelector('.arrow');
+                                                const content = header.nextElementSibling;
 
+                                                if (content.style.display === "block") {
+                                                content.style.display = "none";
+                                                arrow.classList.remove("rotate");
+                                                } else {
+                                                content.style.display = "block";
+                                                arrow.classList.add("rotate");
+                                                }
+                                            }
+                                            </script>
 
                                         </p>
                                         <br>
